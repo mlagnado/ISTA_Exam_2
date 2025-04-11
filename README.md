@@ -55,3 +55,7 @@
 
 ##Resource to help build a similar model
 ##[https://www.kaggle.com/code/ninjaac/lasso-and-ridge-regression-from-scratch?utm_source=chatgpt.com]
+
+
+# - Model Validation
+##The model is validated using a K-fold cross validation iterating on K values between 2 and 20. The results of this show a rather constant MSE and an R2 that decreases with an increasing number of folds. I believe this is explained by the high variance in the original dataset.
