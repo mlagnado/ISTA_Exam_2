@@ -61,3 +61,8 @@
 ##The model is validated using a K-fold cross validation iterating on K values between 2 and 20. The results of this show a rather constant MSE and an R2 that decreases with an increasing number of folds. I believe this is explained by the high variance in the original dataset.
 ##[https://isheunesu48.medium.com/cross-validation-using-k-fold-with-scikit-learn-cfc44bf1ce6]
 ##[https://towardsdatascience.com/evaluation-metrics-model-selection-in-linear-regression-73c7573208be/]
+
+
+# - Conclusion
+Conclusion:
+As hypothesized with the initial exploratory data analysis, the number of discharges is negatively correlated with the excess readmissions ratio. For hospitals that are on the upper end of number of discharges for heart attack patients should be more closely studied. These hospitals appear to be most successfully preventing readmission for heart attack related reasons. It is even more impressive considering there are already estimates for how well they should be treating the patients that they are surpassing. Moving forward a model should be created to understand how these hospitals treat heart attack patients that differs from hospitals that don't see as many discharges. This can help in developing more efficient treatment options for other hospitals that could lead to a higher number of successful discharges in the future.
