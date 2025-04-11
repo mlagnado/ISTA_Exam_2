@@ -59,3 +59,5 @@
 
 # - Model Validation
 ##The model is validated using a K-fold cross validation iterating on K values between 2 and 20. The results of this show a rather constant MSE and an R2 that decreases with an increasing number of folds. I believe this is explained by the high variance in the original dataset.
+##[https://isheunesu48.medium.com/cross-validation-using-k-fold-with-scikit-learn-cfc44bf1ce6]
+##[https://towardsdatascience.com/evaluation-metrics-model-selection-in-linear-regression-73c7573208be/]
