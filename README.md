@@ -48,3 +48,10 @@
 
 # - Why is this Interesting
 ##For hospitals that see a lot of patients for heart attacks, especially if they are successful in preventing readmission (repeated health issues), we would want to perform a study on why they are successful. By evaluating if it is true that hospitals that see more heart attack patients are better at treating them, then it would make sense to then look into what these hospitals are doing that is more effective than hospitals with a high excess readmission rate. This follow up allows the health industry to better analyze how treatment of these patients is effective. However, in order to perform the follow up we first need to have evidence that it is true.
+
+
+# - Model Construction
+##A linear regression model was constructed utilizing ridge regression on a gradient descent. The output from the linear regression model shows that there is in fact a negative linear relationship between the Number of discharges and the Excess Readmission Ratio.
+
+##Resource to help build a similar model
+##[https://www.kaggle.com/code/ninjaac/lasso-and-ridge-regression-from-scratch?utm_source=chatgpt.com]
