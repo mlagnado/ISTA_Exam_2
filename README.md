@@ -52,7 +52,10 @@
 
 
 # - Model Construction
-##A linear regression model was constructed utilizing ridge regression on a gradient descent. The output from the linear regression model shows that there is in fact a negative linear relationship between the Number of discharges and the Excess Readmission Ratio.
+##A linear regression model was constructed utilizing ridge regression on a gradient descent. 
+##A linear model is chosen because of the exploratory data analysis where it appeared that there was a linear relationship, furthermore ridge regression is utilized to quickly fix weighting.
+##The model is designed such that it is easily expandable to include more predictors if there is a question as to what might also have an effect on the Excess Readmission Ratio.
+##The output from the linear regression model shows that there is in fact a negative linear relationship between the Number of discharges and the Excess Readmission Ratio.
 
 ##Resource to help build a similar model
 ##[https://www.kaggle.com/code/ninjaac/lasso-and-ridge-regression-from-scratch?utm_source=chatgpt.com]
