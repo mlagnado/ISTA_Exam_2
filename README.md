@@ -1,5 +1,6 @@
 # ISTA_Exam_2
-# This repository looks into creating a model to assist hospitals in understanding and predicting patient readmissions.
+# This repository looks into creating a model to assist hospitals in understanding the relationship between patients being discharged and readmitted.
+## This model utilizes the Hospital Readmissions Reduction Program dataset which is available at [https://data.cms.gov/provider-data/dataset/9n3s-kdb3#data-table]
 
 
 # - Resources to help understand the topic
@@ -36,7 +37,7 @@
 ##[https://qualitynet.cms.gov/inpatient/hrrp/measures]##
 
 
-# - With so much data we might want to slim it down, so only look at heart attack patients in this study.
+## With so much data we might want to slim it down, so only look at heart attack patients in this study.
 
 
 # - Question to be answered:
